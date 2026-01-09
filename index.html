@@ -1,0 +1,2304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="L2ProjectFlow - Interlude PvP 70x">
+    <meta property="og:description"
+        content="Step into L2ProjectFlow — A Mid-Rate Interlude 70x PvP/Craft server where every drop matters and every fight counts. Craft your Flow gear, dominate epic battles, and rise through custom challenges designed for true warriors. Join the ProjectFlow legacy today!">
+    <meta property="og:image" content="https://l2projectflow.com/img/link.webp">
+    <meta property="og:url" content="https://l2projectflow.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>L2 ProjectFlow - Interlude Craft Mid-Rate PVP 70x</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Background Container -->
+    <div class="background-image"></div>
+    <div class="light-streak"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar desktop-navbar" id="desktopNavbar">
+        <!-- Logo Icon -->
+        <div class="navbar-icon">
+            <img src="img/logo-icon.png" alt="Flow Logo" />
+        </div>
+
+        <!-- Navigation Links -->
+        <ul>
+            <li><a href="#home"><span class="iconify" data-icon="tabler:atom-2" data-width="24"></span>
+                    Home</a></li>
+            <li><a href="#features"><span class="iconify" data-icon="tabler:brand-databricks" data-width="24"></span>
+                    Features</a></li>
+            <li><a href="#download"><span class="iconify" data-icon="tabler:device-sd-card" data-width="24"></span>
+                    Downloads</a></li>
+            <li><a href="/"><span class="iconify" data-icon="tabler:location-filled" data-width="24"></span>
+                    Community</a></li>
+        </ul>
+
+        <!-- Login Button -->
+        <a href="https://l2projectflow.com/ucp" class="login-btn">
+            <span class="iconify" data-icon="tabler:login-2" data-width="20">
+            </span>ACCOUNT
+        </a>
+
+    </nav>
+
+    <!-- Sub Navigation Bar -->
+    <div class="sub-nav desktop-navbar" id="desktopNavbar">
+        <div class="sub-nav-content">
+
+            <div class="sub-nav-left">
+                <!-- Social Media Links -->
+                <span class="socialmedia-icon"><i class="fab fa-instagram"></i></span>
+                <span class="server-status"><a href="https://www.instagram.com/projectflowl2/"
+                        target="_blank">INSTAGRAM</a></span>
+                <span class="socialmedia-icon"><i class="fab fa-facebook"></i></span>
+                <span class="server-status"><a href="https://www.facebook.com/profile.php?id=61561739906962"
+                        target="_blank">FACEBOOK</a></span>
+                <span class="socialmedia-icon"><i class="fab fa-youtube"></i></span>
+                <span class="server-status"><a href="https://www.youtube.com/@l2projectflow"
+                        target="_blank">YOUTUBE</a></span>
+                <span class="socialmedia-icon"><i class="fab fa-discord"></i></span>
+                <span class="server-status"><a href="https://discord.gg/vQGu9g27yE" target="_blank">DISCORD</a></span>
+            </div>
+
+            <div class="sub-nav-right">
+                <span class="server-icon"><img src="img/on_icon.png" alt="Status" /></span>
+                <span class="server-status">Project Flow <font color="00FF00">70x</font></span>
+
+                <!-- Language Button -->
+                <div class="language-dropdown">
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Mobile Navbar -->
+    <nav class="navbar mobile-navbar" id="mobileNavbar">
+
+        <div class="navbar-container">
+            <!-- Left Section: Logo -->
+            <a href="index" class="navbar-logo">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+
+            <!-- Center Section: Language Dropdown and Icons -->
+            <div class="navbar-center">
+                <div class="language-dropdown">
+                    <span class="language-label">
+                        <img src="img/en.png" alt="EN" class="flag-icon"> EN
+                        <span class="arrow-icon-lang">▼</span> <!-- Arrow icon -->
+                    </span>
+                    <div class="language-menu">
+                        <a href="#" class="language-option">
+                            <img src="img/es.png" alt="ES" class="flag-icon"> ES
+                        </a>
+                        <a href="#" class="language-option">
+                            <img src="img/pt.png" alt="PT" class="flag-icon"> PT
+                        </a>
+                        <a href="#" class="language-option">
+                            <img src="img/ru.png" alt="RU" class="flag-icon"> RU
+                        </a>
+                    </div>
+                </div>
+
+                <a href="https://l2projectflow.com/login" class="icon-button">
+                    <img src="img/download/register.png">
+                </a>
+
+            </div>
+
+            <!-- Right Section: Hamburger Menu -->
+            <div class="hamburger" onclick="toggleMenu(this)">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </div>
+
+        <div class="fullscreen-menu" id="fullscreenMenu">
+            <ul class="menu-list">
+                <li><a href="#home" class="nav-link">&#9654; Home</a></li>
+            </ul>
+            <hr>
+            <ul class="menu-list">
+                <li><a href="#features" class="nav-link">&#9654; Features</a></li>
+            </ul>
+            <hr>
+            <ul class="menu-list">
+                <li><a href="#download" class="nav-link">&#9654; Download</a></li>
+            </ul>
+            <hr>
+            <ul class="menu-list">
+                <li><a href="https://discord.gg/vQGu9g27yE" target="_blank" class="nav-link">&#9654; Community</a>
+                </li>
+            </ul>
+            <hr>
+
+
+
+            <!-- Footer Content -->
+            <div class="footer-container-server">
+
+                <span class="server-status-text">Server Status</span>
+                <div class="footer-server">
+                    <div class="server-item">
+                        <span class="server-icon"><img src="img/on_icon.png" alt="Status" /></span>
+                        <span class="server-status">Project Flow <font color="00FF00">70x</font></span>
+                    </div>
+                </div>
+
+
+
+                <div class="footer-hamburger-container">
+
+                    <div class="social-media-center">
+                        <!-- Social Media Links -->
+                        <span class="server-icon"><i class="fab fa-facebook"></i></span>
+                        <span class="server-status"><a href="#" target="_blank">FACEBOOK</a></span>
+                        <span class="server-icon"><i class="fab fa-youtube"></i></span>
+                        <span class="server-status"><a href="#" target="_blank">YOUTUBE</a></span>
+                        <span class="server-icon"><i class="fab fa-discord"></i></span>
+                        <span class="server-status"><a href="#" target="_blank">DISCORD</a></span>
+                    </div>
+
+                    <div class="footer-bottom-hamburger">
+                        <div class="footer-copyright-hamburger">
+                            © 2025 Project Flow - All rights reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="page-section" id="home">
+        <!-- Logo Section -->
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo" class="logo">
+        </div>
+        <!-- Introduction Title -->
+        <div class="title-container">
+            <h1>Welcome to the <span style="color: #80D3E8;">L2 Project Flow</span></h1>
+            <p>Enter and have fun. This server is made not to close, not to wipe, and not to have seasons. So relax, you
+                will have time to become stronger and stronger.</p>
+            <p>L2OFF Mid-Rate PVP 70x - Interlude</p>
+        </div>
+
+        <!-- COUNTDOWN 
+        <div class="countdown-container">
+            <div class="countdown-title" id="timer-mode-text">
+                COMING SOON:
+            </div>
+
+            <div class="countdown-grid">
+                <div class="countdown-item">
+                    <span class="countdown-value" id="days">11</span>
+                    <span class="countdown-label">DAYS</span>
+                </div>
+
+                <div class="countdown-item">
+                    <span class="countdown-value" id="hours">18</span>
+                    <span class="countdown-label">HOURS</span>
+                </div>
+
+                <div class="countdown-item">
+                    <span class="countdown-value" id="minutes">54</span>
+                    <span class="countdown-label">MINUTES</span>
+                </div>
+
+                <div class="countdown-item">
+                    <span class="countdown-value" id="seconds">44</span>
+                    <span class="countdown-label">SECONDS</span>
+                </div>
+            </div>
+        </div>
+-->
+
+
+
+        <div class="button-container">
+            <a href="#download" class="custom-image-button">
+                <img src="img/startgame.png" class="button-image" />
+                <span class="button-text">START GAME</span>
+            </a>
+        </div>
+        <div class="logo-container">
+        </div>
+        <div class="logo-container">
+        </div>
+        <!-- features -->
+        <div class="page-section" id="features">
+            <div class="logo-container">
+            </div>
+            <div class="title-container">
+                <p>Discover everything you need to know about Project Flow before diving into the game!</p>
+            </div>
+            <!-- feat -->
+            <div class="feat-container">
+                <aside class="radio-menu">
+                    <div class="menu-item">
+                        <input type="radio" id="feature1" name="feature" checked>
+                        <label for="feature1">
+                            <i class="menu-icon fas fa-solid fa-paperclip"></i>
+                            General Info
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature2" name="feature">
+                        <label for="feature2">
+                            <i class="menu-icon fas fa-solid fa-puzzle-piece"></i>
+                            Skills and Buffs
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature3" name="feature">
+                        <label for="feature3">
+                            <i class="menu-icon fas fa-solid fa-skull"></i>
+                            Enchant Rates
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature10" name="feature">
+                        <label for="feature10">
+                            <i class="menu-icon fas"><span class="iconify"
+                                    data-icon="line-md:map-marker-alt-filled-loop" data-width="20"></span></i>
+                            Farming
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature11" name="feature">
+                        <label for="feature11">
+                            <i class="menu-icon fas"><span class="iconify" data-icon="mdi:sword"
+                                    data-width="20"></span></i>
+
+                            Custom Equip
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature12" name="feature">
+                        <label for="feature12">
+                            <i class="menu-icon fas"><span class="iconify" data-icon="line-md:compass-filled-loop"
+                                    data-width="20"></span></i>
+                            Augmentation
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature13" name="feature">
+                        <label for="feature13">
+                            <i class="menu-icon fas"><span class="iconify" data-icon="line-md:email-alert-filled"
+                                    data-width="20"></span></i>
+                            Auction Market
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature4" name="feature">
+                        <label for="feature4">
+                            <i class="menu-icon fas"><span class="iconify" data-icon="tdesign:gamepad-1-filled"
+                                    data-width="20"></span></i>
+                            Events
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature14" name="feature">
+                        <label for="feature14">
+                            <i class="menu-icon fas"><span class="iconify" data-icon="token:mmy"
+                                    data-width="20"></span></i>
+
+                            Raid Bosses
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+
+                    <div class="menu-item">
+                        <input type="radio" id="feature5" name="feature">
+                        <label for="feature5">
+                            <i class="menu-icon fa-solid fa-dragon"></i>
+                            Epic Bosses
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature6" name="feature">
+                        <label for="feature6">
+                            <i class="menu-icon fas fa-shield-alt"></i>
+                            VIP Benefits
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature7" name="feature">
+                        <label for="feature7">
+                            <i class="menu-icon fas fa-solid fa-chess-rook"></i>
+                            Clans and Sieges
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature8" name="feature">
+                        <label for="feature8">
+                            <i class="menu-icon fas fa-chess-king"></i>
+                            Grand Olympiad
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+                    <div class="menu-item">
+                        <input type="radio" id="feature9" name="feature">
+                        <label for="feature9">
+                            <i class="menu-icon fas"><span class="iconify" data-icon="tdesign:view-in-ar-filled"
+                                    data-width="20"></span></i>
+                            Flow Features
+                            <span class="arrow-icon">→</span>
+                        </label>
+                    </div>
+
+                    <!-- Add more menu items as needed -->
+                </aside>
+
+                <section class="content-area">
+
+                    <!-- General Info -->
+                    <div class="content" id="feature1-content">
+                        <h2>General Information</h2>
+                        <p>The information below is intended to make the main aspects of the server clear to the public
+                            and
+                            facilitate their journey on the server.</p>
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/exp.webp" class="feat-icon-image">
+                                    <span>Experience Rate</span>
+                                </div>
+                                <span class="spl-item-right">x70</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/sp.jpg" class="feat-icon-image">
+                                    <span>Skill Points Rate</span>
+                                </div>
+                                <span class="spl-item-right">x70</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/adenarate.webp" class="feat-icon-image">
+                                    <span>Adena Rate</span>
+                                </div>
+                                <span class="spl-item-right">x200</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/quest.jpg" class="feat-icon-image">
+                                    <span>Quest Rate</span>
+                                </div>
+                                <span class="spl-item-right">x1</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/dropspoil.webp" class="feat-icon-image">
+                                    <span>Drops/Spoil</span>
+                                </div>
+                                <span class="spl-item-right">x1</span>
+                            </li>
+                        </ul>
+
+                        <p>Additional Information</p>
+
+                        <ul>
+                            <li><img src="img/features/autoloot.webp" class="feat-icon-image">Auto Loot for items from
+                                monsters
+                                and manual pickup for raid bosses</li>
+                            <li><img src="img/features/manapotion.webp" class="feat-icon-image">Mana Potions: Restores
+                                400
+                                MP
+                                no cooldown</li>
+                            <li><img src="img/features/learn.png" class="feat-icon-image">1st, 2nd and 3rd class
+                                transfers
+                                are free!</li>
+                            <li><img src="img/features/pc.png" class="feat-icon-image">Maximum Clients per computer: 3
+                            </li>
+                            <li><img src="img/features/members_pt.png" class="feat-icon-image">Maximum number of members
+                                in
+                                a party: 9</li>
+
+                            <li><img src="img/features/subclas.webp" class="feat-icon-image">Subclass quest purchasable
+                                for
+                                1 billion Adena</li>
+                            <li><img src="img/features/noblesse.webp" class="feat-icon-image">Noblesse by quest, items
+                                also
+                                sell in shop for convenience</li>
+                            <li><img src="img/features/baraka.webp" class="feat-icon-image">Barakiel respawn 3x times a
+                                day
+                            </li>
+                            <li><img src="img/features/offlineshop.webp" class="feat-icon-image">Offline shops Private
+                                Store
+                                up
+                                to 2 days</li>
+                        </ul>
+
+
+
+                    </div>
+
+                    <!-- Skills and Buffs Section -->
+                    <div class="content" id="feature2-content" style="display: none;">
+                        <h2>Skills and Buffs</h2>
+                        <p>Our server introduces a robust and customizable buff system that enhances your gameplay</p>
+                        <ul>
+                            <li><img src="img/features/JudicatorBuffs.bmp" class="feat-icon-image">Auto learn skills
+                            </li>
+                            <li><img src="img/features/divineinspiration.webp" class="feat-icon-image">Buff slots 20+4
+                                (divine inspiration
+                                autolearn)</li>
+                            <li><img src="img/features/blesqueen.webp" class="feat-icon-image">Blessing of Queen: Now
+                                Grants
+                                15% Critical Damage</li>
+                            <li><img src="img/features/healing.webp" class="feat-icon-image">Healing skills do not work
+                                on
+                                Raid
+                                Boss or Epic Boss</li>
+                            <li><img src="img/features/cancelskill.webp" class="feat-icon-image">Cancel (cancel 7 buffs
+                                randomly),
+                                remove buffs for 15 seconds, then the buffs return.</li>
+                            <li><img src="img/features/touch.webp" class="feat-icon-image">Touch of Death (cancel 5
+                                buffs randomly) remove buffs for 2 minutes, then the buffs return</li>
+                            <li><img src="img/features/massbane.webp" class="feat-icon-image">Mass Bane Warrior/Mage -
+                                remove
+                                buff effect for 5 seconds, then the buffs return</li>
+                            <li><img src="img/features/malaria.webp" class="feat-icon-image">Malaria, flu, rheumatism
+                                and
+                                cholera: you can only get in Hot Springs, they work as debuffs, cleansable, no longer in
+                                the
+                                npc buffer or AIO Buffer</li>
+                            <li><img src="img/features/antybuff.webp" class="feat-icon-image">Buff block skill to avoid
+                                buffs
+                                from party members</li>
+                            <li><img src="img/features/partyselfbuff.webp" class="feat-icon-image">Every Buffs is self
+                                and
+                                affects
+                                the party</li>
+                            <li><img src="img/features/foi.webp" class="feat-icon-image">Flames of Invincibility,
+                                Gracia Like</li>
+                            <li><img src="img/features/summon.webp" class="feat-icon-image">Summon Friend and Gate Chant
+                                The skill will not work while you are in PvP or near a boss.</li>
+                            <li><img src="img/features/Arrest.webp" class="feat-icon-image">Arrest + Chance in skill
+                                all lvls.</li>
+                            <li><img src="img/features/shackle.webp" class="feat-icon-image">Shackle + Chance in skill
+                                all lvls.</li>
+                            <li><img src="img/features/masssackle.webp" class="feat-icon-image">Mass Shackling + Chance
+                                in
+                                skill
+                                all lvls.</li>
+                            <li><img src="img/features/auraflash.webp" class="feat-icon-image">Aura Flash Rework one
+                                target
+                                + Chance
+                                all lvls.</li>
+                            <li><img src="img/features/frenzy.webp" class="feat-icon-image">Frenzy % p. attack bônus
+                                reduction from 200% to 100% (balance pvp and boss).</li>
+                        </ul>
+                        <h3>Complete NPC buffer</h3>
+                        <hr>
+                        <ul class="raidboss-drops">
+                            <li>NPC buffer in all towns, complete, with ready-made schemes, and each player can also
+                                create 6 custom buff schemes with a name and 24 buff slots. All buffs last 1 hour and 30
+                                minutes, and for VIP characters the buffs last 3 hours.</li>
+                            <li>[AIO] characters provide 3-hour buffs, but they have no advantage over the NPC buffs
+                                besides the duration. As mentioned above, only VIP characters have 3-hour buffs, so the
+                                AIO is simply a way to get longer buffs without having a VIP character.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Farming Section -->
+                    <div class="content" id="feature10-content" style="display: none;">
+                        <h2>Cave of Trials</h2>
+
+                        <p>
+                            After you reach level 76 you can farm by hunting mobs in Cave of Trials, have a lot of type
+                            of
+                            mobs and they drop important goods for make a high level itens.</p>
+
+                        <ul class="spl-items-list">
+                            <div class="premium-header"><img src="img/features/cot.webp" alt="projectflow Spoil">
+                            </div>
+                            <h4>Drop Information</h4>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/gc.webp" class="feat-icon-image">
+                                    <span>Adena</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/blackartifact.webp" class="feat-icon-image">
+                                    <span>Black Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/redartifact.webp" class="feat-icon-image">
+                                    <span>Red Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/blueartifact.webp" class="feat-icon-image">
+                                    <span>Blue Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/redmantra.webp" class="feat-icon-image">
+                                    <span>Red Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/greenmantra.webp" class="feat-icon-image">
+                                    <span>Green Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/bluemantra.webp" class="feat-icon-image">
+                                    <span>Blue Mantra</span>
+                                </div>
+
+                            </li>
+                        </ul>
+
+                        <h2>Elven Fortress</h2>
+
+                        <p>
+                            After you reach level 76 you can farm by hunting mobs in Cave of Trials, have a lot of type
+                            of
+                            mobs and they drop important goods for make a high level itens.</p>
+
+                        <ul class="spl-items-list">
+                            <div class="premium-header"><img src="img/features/elveneasy.webp" alt="projectflow Spoil">
+                            </div>
+                            <h4>Drop Information Easy Zone</h4>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/gc.webp" class="feat-icon-image">
+                                    <span>Adena</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/blackartifact.webp" class="feat-icon-image">
+                                    <span>Black Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/redartifact.webp" class="feat-icon-image">
+                                    <span>Red Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/blueartifact.webp" class="feat-icon-image">
+                                    <span>Blue Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/redmantra.webp" class="feat-icon-image">
+                                    <span>Red Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/greenmantra.webp" class="feat-icon-image">
+                                    <span>Green Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/bluemantra.webp" class="feat-icon-image">
+                                    <span>Blue Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/goldmantra.webp" class="feat-icon-image">
+                                    <span>Gold Mantra Mantra</span>
+                                </div>
+
+                            </li>
+                        </ul>
+
+                        <ul class="spl-items-list">
+                            <div class="premium-header"><img src="img/features/elvenmedium.webp"
+                                    alt="projectflow Spoil">
+                            </div>
+                            <h4>Drop Information Medium Zone</h4>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/gc.webp" class="feat-icon-image">
+                                    <span>Adena</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/blackartifact.webp" class="feat-icon-image">
+                                    <span>Black Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/redartifact.webp" class="feat-icon-image">
+                                    <span>Red Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/blueartifact.webp" class="feat-icon-image">
+                                    <span>Blue Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/redmantra.webp" class="feat-icon-image">
+                                    <span>Red Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/greenmantra.webp" class="feat-icon-image">
+                                    <span>Green Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/bluemantra.webp" class="feat-icon-image">
+                                    <span>Blue Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/goldmantra.webp" class="feat-icon-image">
+                                    <span>Gold Mantra Mantra</span>
+                                </div>
+
+                            </li>
+                        </ul>
+
+                        <ul class="spl-items-list">
+                            <div class="premium-header"><img src="img/features/elvenpartyfarm.webp"
+                                    alt="projectflow Spoil">
+                            </div>
+                            <h4>Drop Information Party Farm Zone (PVP)</h4>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/gc.webp" class="feat-icon-image">
+                                    <span>Adena</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/blackartifact.webp" class="feat-icon-image">
+                                    <span>Black Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/redartifact.webp" class="feat-icon-image">
+                                    <span>Red Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/blueartifact.webp" class="feat-icon-image">
+                                    <span>Blue Artifact</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/redmantra.webp" class="feat-icon-image">
+                                    <span>Red Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/greenmantra.webp" class="feat-icon-image">
+                                    <span>Green Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/bluemantra.webp" class="feat-icon-image">
+                                    <span>Blue Mantra</span>
+                                </div>
+
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/goldmantra.webp" class="feat-icon-image">
+                                    <span>Gold Mantra Mantra</span>
+                                </div>
+
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+                    <!-- Custom Equipment -->
+                    <div class="content" id="feature11-content" style="display: none;">
+                        <h2>Custom Equipment</h2>
+                        <p>
+                            We created these custom equipments precisely to balance PvP. Since the server has
+                            long-duration buffs and also mana potions, these equipments were implemented to fix and
+                            balance the gameplay.
+                        </p>
+                        <h3>Boss Jewels Rework</h3>
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/baiumring.webp" class="feat-icon-image">
+                                    <span>Baium Ring</span>
+                                </div>
+                                <span class="spl-item-right">Critical Damage 10%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/queenant.webp" class="feat-icon-image">
+                                    <span>Queen Ant Ring</span>
+                                </div>
+                                <span class="spl-item-right">Critical Damage 10%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/orfen.webp" class="feat-icon-image">
+                                    <span>Orfen Earring</span>
+                                </div>
+                                <span class="spl-item-right">Heal Power 8%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/core.webp" class="feat-icon-image">
+                                    <span>Core Ring</span>
+                                </div>
+                                <span class="spl-item-right">+2% M.Atk and +1% Casting</span>
+                            </li>
+                        </ul>
+
+                        <h3>Armor's</h3>
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <div class="tooltip-container">
+                                        <img src="img/features/FlowArmor(Heavy).webp" class="feat-icon-image">
+                                        <img src="img/features/FlowArmor(Robe).png" class="tooltip-preview"
+                                            alt="Flow Armor Tooltip">
+                                    </div>
+                                    <span>Flow Armor (Heavy)</span>
+                                </div>
+                                <span class="spl-item-right"><span>CON+2, STR+2, P.Def +11%, P.Heal +10%, Atk.Spd +4%,
+                                        Resist Sleep +10%,</span><br><span>Resist Poison/Bleed +50%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <div class="tooltip-container">
+                                        <img src="img/features/FlowArmor(Light).webp" class="feat-icon-image">
+                                        <img src="img/features/FlowArmor(Robe).png" class="tooltip-preview"
+                                            alt="Flow Armor Tooltip">
+                                    </div>
+                                    <span>Flow Armor (Light)</span>
+                                </div>
+                                <span class="spl-item-right"><span>DEX+2, STR+1, CON−1, Atk.Spd +8%, P.Atk +9%, Max MP
+                                        +250, Speed +9,</span><br><span>Resist Sleep +10%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <div class="tooltip-container">
+                                        <img src="img/features/FlowArmor(Robe).webp" class="feat-icon-image"
+                                            alt="Flow Armor">
+                                        <img src="img/features/FlowArmor(Robe).png" class="tooltip-preview"
+                                            alt="Flow Armor Tooltip">
+                                    </div>
+                                    <span>Flow Armor (Robe)</span>
+                                </div>
+                                <span class="spl-item-right">
+                                    <span>WIT+2, INT+1, MEN−2, Max MP +249, P.Def +10%, M.Atk +16%, Cast
+                                        +16%,</span><br>
+                                    <span>Speed +7, Magic Cancel Rate −50%, Resist Sleep +10%</span>
+                                </span>
+                            </li>
+                        </ul>
+
+                        <h3>Cloak's</h3>
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/CloakofMage.webp" class="feat-icon-image">
+                                    <span>Cloak of Mage</span>
+                                </div>
+                                <span class="spl-item-right"><span>M.Atk +4%, Cast.Spd +5%, M.Def +20%, P.Def +30%,
+                                        Speed
+                                        +25, HP +1600,</span><br>
+                                    <span>Resist Stun −10%, PvP bonus</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/CloakofFighter.webp" class="feat-icon-image">
+                                    <span>Cloak of Fighter</span>
+                                </div>
+                                <span class="spl-item-right"><span>Crit.Atk +10%, Atk.Spd +5%, M.Def +30%, P.Def +25%,
+                                        Speed +25, HP +1600,</span><br>
+                                    <span>Accuracy +2, Evasion +4, Resist Sleep −10%, PvP bonus</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/Cloakofspeed.webp" class="feat-icon-image">
+                                    <span>Cloak of Speed</span>
+                                </div>
+                                <span class="spl-item-right"><span>Speed +25</span>
+                            </li>
+                        </ul>
+
+
+
+
+
+                        <h3>Shield's</h3>
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/duskshield.webp" class="feat-icon-image">
+                                    <span>Dusk</span>
+                                </div>
+                                <span class="spl-item-right"><span>Resist Shock +15%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/wings.webp" class="feat-icon-image">
+                                    <span>Wings</span>
+                                </div>
+                                <span class="spl-item-right"><span>Resist Bow +12%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/wings2.webp" class="feat-icon-image">
+                                    <span>Wings2</span>
+                                </div>
+                                <span class="spl-item-right"><span>Resist Dagger +15%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/demonicshield.webp" class="feat-icon-image">
+                                    <span>Demonic</span>
+                                </div>
+                                <span class="spl-item-right"><span>Max HP +8%</span>
+                            </li>
+                        </ul>
+
+
+                        <h3>Weapon's</h3>
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/DemonicSpiritBow.webp" class="feat-icon-image">
+                                    <span>Demonic Spirit Bow (Focus/Haste)</span>
+                                </div>
+                                <span class="spl-item-right"><span>Crit +7%, Atk.Spd +4%</span></span>
+                            </li>
+
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/DemonicDeathDealer.webp" class="feat-icon-image">
+                                    <span>Demonic Death Dealer (Focus/Haste)</span>
+                                </div>
+                                <span class="spl-item-right"><span>Crit +7%, Atk.Spd +5%</span></span>
+                            </li>
+
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/SaintInfinitySpear.webp" class="feat-icon-image">
+                                    <span>Saint Infinity Spear (Haste/Health)</span>
+                                </div>
+                                <span class="spl-item-right"><span>Atk.Spd +6%, Max HP +20%</span></span>
+                            </li>
+
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/DemonInfinity.webp" class="feat-icon-image">
+                                    <span>Demon Infinity (Health/Crit Stun)</span>
+                                </div>
+                                <span class="spl-item-right"><span>Max HP +20%, 25% Stun on crit</span></span>
+                            </li>
+
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/ForgottenInfinity.webp" class="feat-icon-image">
+                                    <span>Forgotten Infinity (Focus/Health)</span>
+                                </div>
+                                <span class="spl-item-right"><span>Max HP +20%, Crit Chance +84</span></span>
+                            </li>
+
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/DuskWeapon.webp" class="feat-icon-image">
+                                    <span>Dusk Weapon (Acumen/Empower)</span>
+                                </div>
+                                <span class="spl-item-right"><span>Cast +14%, M.Atk +10%</span></span>
+                            </li>
+
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/InfinityStaff.webp" class="feat-icon-image">
+                                    <span>Infinity Staff (Acumen/Empower)</span>
+                                </div>
+                                <span class="spl-item-right"><span>Cast +15%, M.Atk +12%</span></span>
+                            </li>
+
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/InfinitySlayer.webp" class="feat-icon-image">
+                                    <span>Infinity Slayer (Haste/Crit Dmg)</span>
+                                </div>
+                                <span class="spl-item-right"><span>Atk.Spd +6%, +265 P.Atk on crit</span></span>
+                            </li>
+
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/DualTallum.webp" class="feat-icon-image">
+                                    <span>Dual Tallum (Haste/Crit Dmg)</span>
+                                </div>
+                                <span class="spl-item-right"><span>Atk.Spd +6%, +265 P.Atk on crit; +4:
+                                        HP/MP/CP</span></span>
+                            </li>
+
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/InfinityDivider.webp" class="feat-icon-image">
+                                    <span>Infinity Divider (Focus/Haste)</span>
+                                </div>
+                                <span class="spl-item-right"><span>Crit +7%, Atk.Spd +6%</span></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Augmentation -->
+                    <div class="content" id="feature12-content" style="display: none;">
+
+                        <h2>Augmentation</h2>
+                        <p>
+                            "Remember that only 1 Augment can be used — either passive or active. Both have the same
+                            stats, of course the active one takes up a buff slot, but it’s still good."
+                        </p>
+                        <br>
+                        <h3>How it works</h3>
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/augment.webp" class="feat-icon-image">
+                                    <span>1 active augment or 1 passive (no staking)</span>
+                                </div>
+                                <span class="spl-item-right"></span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/toplifestone.webp" class="feat-icon-image">
+                                    <span>Life Stones obtainable from raid bosses or tyrannorsaurus</span>
+                                </div>
+                                <span class="spl-item-right">Primeval Island</span>
+                            </li>
+                        </ul>
+                        <h3>Rates</h3>
+                        <table class="responsive-table">
+                            <thead>
+                                <tr>
+                                    <th><img src="img/features/midelifestone.webp" class="feat-icon-image">Mid-Lifestone
+                                    </th>
+                                    <th><img src="img/features/highelifestone.webp"
+                                            class="feat-icon-image">High-Lifestone
+                                    </th>
+                                    <th><img src="img/features/toplifestone.webp" class="feat-icon-image">Top-Lifestone
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <li>2%</li>
+                                    </td>
+                                    <td>
+                                        <li>4%</li>
+                                    </td>
+                                    <td>
+                                        <li>6%</li>
+                                    </td>
+                                </tr>
+                                <!-- Add more rows as needed -->
+                            </tbody>
+                        </table>
+
+
+
+
+
+                    </div>
+
+                    <!-- Auction Section -->
+                    <div class="content" id="feature13-content" style="display: none;">
+                        <h2>Auction Market</h2>
+                        <p>The Auction Market lets players list, browse, and purchase items using Adena, Gold Bars,
+                            Event
+                            Tokens, and more. Empower your gameplay through strategic trading and exclusive deals.</p>
+                        <br>
+
+
+                        <h3>Auction Homepage (All Listings)</h3>
+                        <center>
+                            <div class="premium-header"><img src="img/features/auctionhome.webp"
+                                    alt="projectflow Auction Homepage">
+                            </div>
+                        </center>
+
+                        <ul class="raidboss-drops">
+                            <li>Instantly see what's trending in the market.</li>
+                            <li>From rare weapons to crafting materials — all player listings are here.</li>
+                        </ul>
+
+
+
+                        <h3>My Auctions</h3>
+                        <center>
+                            <div class="premium-header"><img src="img/features/auctionmine.webp"
+                                    alt="projectflow My Auctions">
+                            </div>
+                        </center>
+
+                        <ul class="raidboss-drops">
+                            <li>Manage your personal listings using your choice of currency.</li>
+                            <li>Track sold and active, auctions in one place.</li>
+                            <li>Edit or cancel items anytime.</li>
+                        </ul>
+
+
+                        <h3>Buy Menu</h3>
+                        <center>
+                            <div class="premium-header"><img src="img/features/auctionbuy.webp"
+                                    alt="projectflow Auction Buy Menu">
+                            </div>
+                        </center>
+
+                        <ul class="raidboss-drops">
+                            <li>Buy items directly from other players using the currency of their choice.</li>
+                            <li>Easy and fast transactions.</li>
+                        </ul>
+
+
+                        <h3>Search & Filter</h3>
+                        <center>
+                            <div class="premium-header"><img src="img/features/auctionsearch.webp"
+                                    alt="projectflow Auction Search">
+                            </div>
+                        </center>
+
+                        <ul class="raidboss-drops">
+                            <li>Use advanced search filters to locate exactly what you’re looking for.</li>
+                            <li>Save time and get the best deals available.</li>
+                        </ul>
+
+
+                        <h3>Multi-Currency System</h3>
+
+                        <center>
+                            <div class="premium-header"><img src="img/features/auctioncurrency.webp"
+                                    alt="projectflow Auction Multi-Currency System"></div>
+                        </center>
+
+                        <ul class="raidboss-drops">
+                            <li>Sellers can choose from multiple currencies.</li>
+                            <li>Whether you're trading with Adena or Event tokens,and more. the Auction Market adapts to your
+                                economy.</li>
+                        </ul>
+
+                    </div>
+
+                    <!-- Raid Bosses -->
+                    <div class="content" id="feature14-content" style="display: none;">
+                        <h2>Raid Bosses</h2>
+                        <p>Raid bosses drop required items for progression, so gather your friends and take down these beasts — PvP will be nonstop!</p>
+                                                        <p>All boss spawn its 8 hour.</p>
+                        <br>
+                        <h4>Cave of Trials</h4>
+
+                        <ul class="raidboss-drops">
+                            <li>Death Lord Shax</li>
+                            <li>Behemoth Dragon</li>
+                        </ul>
+
+                        <h4>Primeval Isle</h4>
+
+                        <ul class="raidboss-drops">
+                            <li>Sailren</li>
+                            <li>Uruka</li>
+                        </ul>
+
+                        <h4>Elven Fortress</h4>
+
+                        <ul class="raidboss-drops">
+                            <li>Surtur</li>
+                            <li>Benom</li>
+                            <li>Lilith</li>
+                            <li>Anakim</li>
+                            <li>Son of Shuriel</li>
+                            <li>King of Night</li>
+                        </ul>
+
+                        <h4>Retail Position</h4>
+
+                        <ul class="raidboss-drops">
+                                <li>Death Lord Ipos (Lv. 80)</li>
+<li>Einhalder Von Hellmann (Lv. 80)</li>
+<li>Blood Lord Rudelto (Lv. 80)</li>
+<li>Antharas Priest Cloe (Lv. 80)</li>
+<li>Ketra’s Hero Hekaton (Lv. 80)</li>
+<li>Ketra’s Commander Tayr (Lv. 84)</li>
+<li>Ketra’s Chief Brakki (Lv. 84)</li>
+<li>Varka’s Hero Shadith (Lv. 80)</li>
+<li>Varka’s Commander Mos (Lv. 84)</li>
+<li>Varka’s Chief Horus (Lv. 87)</li>
+<li>Queen Shyeed (Lv. 80)</li>
+<li>Lord of Splendor Anays (Lv. 87)</li>
+<li>Ember (Lv. 85)</li>
+<li>High Priestess Van Halter (Lv. 87)</li>
+<li>Roaring Skylancer (Lv. 80)</li>
+<li>Palibati Queen Themis  (Lv. 80)</li>
+<li>Cherub Galaxia (Lv. 79)</li>
+<li>Longhorn Golkonda (Lv. 80)</li>
+<li>Gordon (Lv. 80)</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </ul>
+
+                    </div>
+
+                    <!-- Enchant Section -->
+                    <div class="content" id="feature3-content" style="display: none;">
+                        <h2>Enchantment Rates</h2>
+                        <p>Master the Secrets of Enchantment Discover Hidden Limits, Boost Success Rates, and Unleash
+                            Legendary Power!</p>
+
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/enchantnormal.webp" class="feat-icon-image">
+                                    <span>Normal Enchant Scroll</span>
+                                </div>
+                                <span class="spl-item-right">This type of scrolls can broke your weapon if fail</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/enchantbless.webp" class="feat-icon-image">
+                                    <span>Blessed Enchant Scroll</span>
+                                </div>
+
+                                <span class="spl-item-right">If fail dont broke your weapon, but remove 1 enchant
+                                    level</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/enchantgolden.webp" class="feat-icon-image">
+                                    <span>Golden Enchant Scroll</span>
+                                </div>
+
+                                <span class="spl-item-right">If fail you lose only the scroll, enchant remains</span>
+                            </li>
+                        </ul>
+
+
+                        <table class="responsive-table">
+                            <thead>
+                                <tr>
+                                    <th><img src="img/features/weapons.jpg" class="feat-icon-image">Weapon Enchant
+                                    </th>
+                                    <th><img src="img/features/enchant12.webp" class="feat-icon-image">Normal Rate</th>
+                                    <th><img src="img/features/enchantbless12.webp" class="feat-icon-image">Blessed Rate
+                                    </th>
+                                    <th><img src="img/features/enchantgolden12.webp" class="feat-icon-image">Golden Rate
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <li>+1 → +5</li>
+                                    </td>
+                                    <td>
+                                        <li>100%</li>
+                                    </td>
+                                    <td>
+                                        <li>100%</li>
+                                    </td>
+                                    <td>
+                                        <li>100%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+5 → +6</li>
+                                    </td>
+                                    <td>
+                                        <li>50%</li>
+                                    </td>
+                                    <td>
+                                        <li>60%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+6 → +7</li>
+                                    </td>
+                                    <td>
+                                        <li>45%</li>
+                                    </td>
+                                    <td>
+                                        <li>60%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+7 → +8</li>
+                                    </td>
+                                    <td>
+                                        <li>40%</li>
+                                    </td>
+                                    <td>
+                                        <li>50%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+7 → +8</li>
+                                    </td>
+                                    <td>
+                                        <li>40%</li>
+                                    </td>
+                                    <td>
+                                        <li>50%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+8 → +9</li>
+                                    </td>
+                                    <td>
+                                        <li>35%</li>
+                                    </td>
+                                    <td>
+                                        <li>50%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+9 → +10</li>
+                                    </td>
+                                    <td>
+                                        <li>30%</li>
+                                    </td>
+                                    <td>
+                                        <li>45%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+10 → +15</li>
+                                    </td>
+                                    <td>
+                                        <li>30%</li>
+                                    </td>
+                                    <td>
+                                        <li>25%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+15 → +16</li>
+                                    </td>
+                                    <td>
+                                        <li>20%</li>
+                                    </td>
+                                    <td>
+                                        <li>15%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+16 → +17</li>
+                                    </td>
+                                    <td>
+                                        <li>20%</li>
+                                    </td>
+                                    <td>
+                                        <li>15%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+17 → +18</li>
+                                    </td>
+                                    <td>
+                                        <li>20%</li>
+                                    </td>
+                                    <td>
+                                        <li>8%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+18 → +19</li>
+                                    </td>
+                                    <td>
+                                        <li>20%</li>
+                                    </td>
+                                    <td>
+                                        <li>6%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+19 → +20</li>
+                                    </td>
+                                    <td>
+                                        <li>20%</li>
+                                    </td>
+                                    <td>
+                                        <li>4%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+20 → +21</li>
+                                    </td>
+                                    <td>
+                                        <li>40%</li>
+                                    </td>
+                                    <td>
+                                        <li>2%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <!-- Add more rows as needed -->
+                            </tbody>
+                        </table>
+
+
+                        <table class="responsive-table">
+                            <thead>
+                                <tr>
+                                    <th><img src="img/features/armors.jpg" class="feat-icon-image">Armor/Jewel Enchant
+                                    </th>
+                                    <th><img src="img/features/scrolls1.webp" class="feat-icon-image">Normal Rate</th>
+                                    <th><img src="img/features/scrolls2.webp" class="feat-icon-image">Blessed Rate</th>
+                                    <th><img src="img/features/scrolls3.webp" class="feat-icon-image">Golden Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <li>+0 → +3</li>
+                                    </td>
+                                    <td>
+                                        <li>100%</li>
+                                    </td>
+                                    <td>
+                                        <li>100%</li>
+                                    </td>
+                                    <td>
+                                        <li>100%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+3 → +4</li>
+                                    </td>
+                                    <td>
+                                        <li>50%</li>
+                                    </td>
+                                    <td>
+                                        <li>30%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+4 → +5</li>
+                                    </td>
+                                    <td>
+                                        <li>100%</li>
+                                    </td>
+                                    <td>
+                                        <li>100%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+5 → +6</li>
+                                    </td>
+                                    <td>
+                                        <li>30%</li>
+                                    </td>
+                                    <td>
+                                        <li>30%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+6 → +7</li>
+                                    </td>
+                                    <td>
+                                        <li>25%</li>
+                                    </td>
+                                    <td>
+                                        <li>30%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+7 → +8</li>
+                                    </td>
+                                    <td>
+                                        <li>20%</li>
+                                    </td>
+                                    <td>
+                                        <li>20%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+8 → +9</li>
+                                    </td>
+                                    <td>
+                                        <li>15%</li>
+                                    </td>
+                                    <td>
+                                        <li>15%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>+9 → +10</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                    <td>
+                                        <li>10%</li>
+                                    </td>
+                                </tr>
+                                <!-- Add more rows as needed -->
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <!-- Events Section -->
+                    <div class="content" id="feature4-content" style="display: none;">
+                        <h2>Events</h2>
+                        <p>All event participants will receive Event Tokens along with additional rewards. Please note
+                            that
+                            the event rewards are fixed and may be changed as the server evolves.</p>
+
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/eventtoken.webp" class="feat-icon-image">
+                                    <span>Event Tokens</span>
+                                </div>
+                                <span class="spl-item-right">Event Reward</span>
+                            </li>
+                        </ul>
+                        <div class="events-container">
+                            <div class="event-box">
+                                <h3>Team Vs Team</h3>
+                                <div class="event-reward">
+                                    <img class="event-icon" src="img/events/1st.png" alt="First Place">
+                                    <span class="event-text">Winner: 10 Event Tokens</span>
+                                </div>
+                                <div class="event-reward">
+                                    <img class="event-icon" src="img/events/2nd.png" alt="Second Place">
+                                    <span class="event-text">Loser: 5 Event Tokens</span>
+                                </div>
+                                <div class="event-reward">
+                                    <img class="event-icon" src="img/events/top.png" alt="Top Player">
+                                    <span class="event-text">Top Killer: 5 Extra Rewards</span>
+                                </div>
+                                <p class="event-schedule-title"><u>Event Schedule:</u></p>
+                                <ul class="event-schedule">
+                                    <li>12:00</li>
+                                    <li>18:00</li>
+                                    <li>21:00</li>
+                                </ul>
+                            </div>
+
+                            <div class="event-box">
+                                <h3>Capture The Flag</h3>
+                                <div class="event-reward">
+                                    <img class="event-icon" src="img/events/1st.png" alt="First Place">
+                                    <span class="event-text">Winner: 10 Event Tokens</span>
+                                </div>
+                                <div class="event-reward">
+                                    <img class="event-icon" src="img/events/2nd.png" alt="Second Place">
+                                    <span class="event-text">Loser: 5 Event Tokens</span>
+                                </div>
+                                <div class="event-reward">
+                                    <img class="event-icon" src="img/events/top.png" alt="Top Player">
+                                    <span class="event-text">Top Killer: 5 Extra Rewards</span>
+                                </div>
+                                <p class="event-schedule-title"><u>Event Schedule:</u></p>
+                                <ul class="event-schedule">
+                                    <li>13:00</li>
+                                    <li>19:00</li>
+                                    <li>22:00</li>
+                                </ul>
+                            </div>
+
+                            <div class="event-box">
+                                <h3>Destroy The Base</h3>
+                                <div class="event-reward">
+                                    <img class="event-icon" src="img/events/1st.png" alt="First Place">
+                                    <span class="event-text">Winner: 10 Event Tokens</span>
+                                </div>
+                                <div class="event-reward">
+                                    <img class="event-icon" src="img/events/2nd.png" alt="Second Place">
+                                    <span class="event-text">Loser: 5 Event Tokens</span>
+                                </div>
+                                <div class="event-reward">
+                                    <img class="event-icon" src="img/events/top.png" alt="Top Player">
+                                    <span class="event-text">Top Killer: 5 Extra Rewards</span>
+                                </div>
+                                <p class="event-schedule-title"><u>Event Schedule:</u></p>
+                                <ul class="event-schedule">
+                                    <li>14:00</li>
+                                    <li>20:00</li>
+                                    <li>23:00</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- Epicboss Section -->
+                    <div class="content" id="feature5-content" style="display: none;">
+                        <h2>Raid Bosses</h2>
+                        <p>All epic bosses have fixed spawns — each day of the week features one boss, with only Sunday having two — ensuring constant progression of both items and PvP.</p>
+
+                        <ul class="raidboss-info">
+                            <li>Epic Bosses Update: Spawn Intervals & Drops</li>
+                            <li>Custom Drops: Balanced drops will help the server economy.</li>
+                        </ul>
+
+                        <div class="raidboss-container">
+                            <div class="raidboss-box">
+                                <div class="raidboss-header">
+                                    <img class="raidboss-image" src="img/rb/core.jpg" alt="Core">
+                                </div>
+                                <h3>Core</h3>
+                                <p class="grey-text">Fixed: Monday 19:00</p>
+                            </div>
+                            <div class="raidboss-box">
+                                <div class="raidboss-header">
+                                    <img class="raidboss-image" src="img/rb/orfen.jpg" alt="Orfen">
+                                </div>
+                                <h3>Orfen</h3>
+                                <p class="grey-text">Fixed: Tuesday 19:00</p>
+                            </div>
+                        </div>
+                        <div class="raidboss-container">
+
+
+
+                            <div class="raidboss-box">
+                                <div class="raidboss-header">
+                                    <img class="raidboss-image" src="img/rb/queenant.jpg" alt="Queen Ant">
+                                </div>
+                                <h3>Queen Ant</h3>
+                                <p class="grey-text">Fixed: Wednesday 19:00</p>
+
+                            </div>
+
+                            <div class="raidboss-box">
+                                <div class="raidboss-header">
+                                    <img class="raidboss-image" src="img/rb/zaken.jpg" alt="Zaken">
+                                </div>
+                                <h3>Zaken</h3>
+                                <p class="grey-text">Fixed: Thursday 19:00</p>
+
+                            </div>
+                        </div>
+                        <div class="raidboss-container">
+
+
+                            <div class="raidboss-box">
+                                <div class="raidboss-header">
+                                    <img class="raidboss-image" src="img/rb/baium.jpg" alt="Baium">
+                                </div>
+                                <h3>Baium</h3>
+                                <p class="grey-text">Fixed: Friday 19:00</p>
+
+                            </div>
+
+
+
+                            <div class="raidboss-box">
+                                <div class="raidboss-header">
+                                    <img class="raidboss-image" src="img/rb/antharas.jpg" alt="Antharas">
+                                </div>
+                                <h3>Antharas</h3>
+                                <p class="grey-text">Fixed: Saturday 19:00</p>
+                            </div>
+                        </div>
+                        <div class="raidboss-container">
+                            <div class="raidboss-box">
+                                <div class="raidboss-header">
+                                    <img class="raidboss-image" src="img/rb/frintezza.webp" alt="Frintezza.jpg">
+                                </div>
+                                <h3>Frintezza</h3>
+                                <p class="grey-text">Fixed: Sunday 19:00</p>
+
+                            </div>
+
+                            <div class="raidboss-box">
+                                <div class="raidboss-header">
+                                    <img class="raidboss-image" src="img/rb/valakas.jpg" alt="Valakas">
+                                </div>
+                                <h3>Valakas</h3>
+                                <p class="grey-text">Fixed: Sunday 19:00</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- VIP Section -->
+                    <div class="content" id="feature6-content" style="display: none;">
+                        <h2>VIP Character's</h2>
+                        <p>Unlock the full potential of your gameplay with a VIP Characters. Enjoy exclusive features
+                            and
+                            enhanced stats that set you apart from the competition. From increased experience and drop
+                            rates
+                            to special access features, a VIP Characters elevates your in-game journey with perks
+                            tailored
+                            for dedicated players. Embrace the edge that makes every adventure smoother and more
+                            rewarding.
+                        </p>
+
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/exp.webp" class="feat-icon-image"><span>Experience
+                                        (XP)</span>
+                                </div>
+                                <span class="spl-item-right">+30%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/sp.jpg" class="feat-icon-image"><span>Skill Points
+                                        (SP)</span>
+                                </div>
+                                <span class="spl-item-right">+30%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/adena.jpg" class="feat-icon-image"><span>Adena</span>
+                                </div>
+                                <span class="spl-item-right">+30%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/shouts.jpg" class="feat-icon-image"><span>Chat Global</span>
+
+                                </div>
+                                <span class="spl-item-right">(^)</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/drop.jpg" class="feat-icon-image"><span>Drop Amount</span>
+                                </div>
+                                <span class="spl-item-right">+30%</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/spoil.jpg" class="feat-icon-image"><span>Spoil Amount</span>
+                                </div>
+                                <span class="spl-item-right">+30%</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Castle Sieges -->
+                    <div class="content" id="feature7-content" style="display: none;">
+                        <h2>Castle Sieges</h2>
+                        <p>Prepare for battle in an intense Castle Siege! Join forces with your clan to capture and
+                            defend
+                            strategic castles across the realm. Engage in epic, large-scale warfare, where every second
+                            counts, and teamwork is crucial. Victorious clans will gain control over the castle, earning
+                            exclusive rewards, privileges, and a mark of power. This is your chance to showcase your
+                            strength, defend your allies, and claim glory in the kingdom. Rally your forces, sharpen
+                            your
+                            tactics, and rise to the challenge!</p>
+
+                        <div class="castle-container">
+                            <div class="raidboss-box">
+                                <div class="castle-header">
+                                    <img class="castle-image" src="img/castles/giran.jpg" alt="Baium">
+                                </div>
+                                <h3>Giran Castle</h3>
+                                <p class="grey-text">Sunday 14:00</p>
+                                <hr>
+                                <ul class="raidboss-drops">
+                                    <li>Duration: 2 hour</li>
+                                    <li>Registration ends: 1 hour prior to siege start</li>
+                                </ul>
+                            </div>
+
+                            <div class="raidboss-box">
+                                <div class="castle-header">
+                                    <img class="castle-image" src="img/castles/aden.jpg" alt="Baium">
+                                </div>
+                                <h3>Aden Castle</h3>
+                                <p class="grey-text">Sunday 14:00</p>
+                                <hr>
+                                <ul class="raidboss-drops">
+                                    <li>Duration: 2 hour</li>
+                                    <li>Registration ends: 1 hour prior to siege start</li>
+                                </ul>
+                            </div>
+
+                            <div class="raidboss-box">
+                                <div class="castle-header">
+                                    <img class="castle-image" src="img/castles/rune.jpg" alt="Baium">
+                                </div>
+                                <h3>Rune Castle</h3>
+                                <p class="grey-text">Sunday 14:00</p>
+                                <hr>
+                                <ul class="raidboss-drops">
+                                    <li>Duration: 2 hour</li>
+                                    <li>Registration ends: 1 hour prior to siege start</li>
+                                </ul>
+                            </div>
+
+                            <div class="raidboss-box">
+                                <div class="castle-header">
+                                    <img class="castle-image" src="img/castles/dion.jpg" alt="Baium">
+                                </div>
+                                <h3>Dion Castle</h3>
+                                <p class="grey-text">TBA</p>
+                                <hr>
+                                <ul class="raidboss-drops">
+                                    <li>Duration: 2 hour</li>
+                                    <li>Registration: TBA</li>
+                                </ul>
+                            </div>
+
+                            <div class="raidboss-box">
+                                <div class="castle-header">
+                                    <img class="castle-image" src="img/castles/goddard.jpg" alt="Baium">
+                                </div>
+                                <h3>Goddard Castle</h3>
+                                <p class="grey-text">TBA</p>
+                                <hr>
+                                <ul class="raidboss-drops">
+                                    <li>Duration: 2 hour</li>
+                                    <li>Registration: TBA</li>
+                                </ul>
+                            </div>
+
+                            <div class="raidboss-box">
+                                <div class="castle-header">
+                                    <img class="castle-image" src="img/castles/schuttgart.jpg" alt="Baium">
+                                </div>
+                                <h3>Schuttgart Castle</h3>
+                                <p class="grey-text">TBA</p>
+                                <hr>
+                                <ul class="raidboss-drops">
+                                    <li>Duration: 2 hour</li>
+                                    <li>Registration: TBA</li>
+                                </ul>
+                            </div>
+
+                            <div class="raidboss-box">
+                                <div class="castle-header">
+                                    <img class="castle-image" src="img/castles/innadril.jpg" alt="Baium">
+                                </div>
+                                <h3>Innadril Castle</h3>
+                                <p class="grey-text">TBA</p>
+                                <hr>
+                                <ul class="raidboss-drops">
+                                    <li>Duration: 2 hour</li>
+                                    <li>Registration: TBA</li>
+                                </ul>
+                            </div>
+
+                            <div class="raidboss-box">
+                                <div class="castle-header">
+                                    <img class="castle-image" src="img/castles/gludio.jpg" alt="Baium">
+                                </div>
+                                <h3>Gludio Castle</h3>
+                                <p class="grey-text">TBA</p>
+                                <hr>
+                                <ul class="raidboss-drops">
+                                    <li>Duration: 2 hour</li>
+                                    <li>Registration: TBA</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Grand Olympiad Section -->
+                    <div class="content" id="feature8-content" style="display: none;">
+                        <h2>Grand Olympiad</h2>
+                        <p>The Grand Olympiad is a prestigious event where the finest heroes of the realm battle to
+                            prove
+                            their strength and skill in PvP combat. A test of both strategy and power, the Olympiad
+                            allows
+                            players to compete in intense, one-on-one duels for ultimate bragging rights and valuable
+                            rewards. Only the best players will rise to the top and secure their place as champions of
+                            the
+                            realm.</p>
+                        <br>
+                        <div class="premium-header"><img src="img/olympiad/olympiad.jpg" alt="Olympiad"></div>
+
+                        <h3>General Info</h3>
+                        <ul class="raidboss-drops">
+                            <li>The Olympiad event takes place in 2-week cycles, with rankings being reset after each cycle.</li>
+                            <li>Players may challenge others in the arena through the Olympiad Interface, where they can
+                                view upcoming opponents, track their progress, and check rankings.</li>
+                        </ul>
+
+                        <h3>How It Works</h3>
+                        <ul class="raidboss-drops">
+                            <li>4 hours per day (2 hours at 10 am/pm server time)</li>
+                            <li>5 players required..</li>
+                            <li> Class-Free, Class-based.</li>
+                            <li>Guard against botters, restarters, overweighters.</li>
+                        </ul>
+
+
+                    </div>
+                    <!-- projectflow Features Section -->
+                    <div class="content" id="feature9-content" style="display: none;">
+                        <h2>L2Projectflow Custom Features</h2>
+                        <p>Discover unique items and features exclusive to projectflow that enhance your gameplay
+                            experience and
+                            provide powerful advantages to your character.</p>
+
+
+                        <h3>Special Status Services</h3>
+                        <p class="grey-text">Exclusive Character Enhancements</p>
+
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/premium30.webp" class="feat-icon-image">
+                                    <span>VIP Status</span>
+                                </div>
+                                <span class="spl-item-right">30 Days</span>
+                            </li>
+
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/hero.webp" class="feat-icon-image">
+                                    <span>[AIO] Status</span>
+                                </div>
+                                <span class="spl-item-right">Permanent</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/noblesse.webp" class="feat-icon-image">
+                                    <span>Become Noblesse Status</span>
+                                </div>
+                                <span class="spl-item-right">Permanent</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/clan.webp" class="feat-icon-image">
+                                    <span>Clan Boost</span>
+                                </div>
+                                <span class="spl-item-right">8 Level + Full Skills clan</span>
+                            </li>
+                        </ul>
+
+                        <h3>Character Customization</h3>
+                        <p class="grey-text">Personalization Options</p>
+
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/name.webp" class="feat-icon-image">
+                                    <span>Buy Lvl.80</span>
+                                </div>
+                                <span class="spl-item-right">Use Flow coin</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/class.webp" class="feat-icon-image">
+                                    <span>Get Strider</span>
+                                </div>
+                                <span class="spl-item-right">Use Flow coin</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/sex.webp" class="feat-icon-image">
+                                    <span>Sex Change</span>
+                                </div>
+                                <span class="spl-item-right">Use Flow coin</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/color.webp" class="feat-icon-image">
+                                    <span>Name/Title Color Change</span>
+                                </div>
+                                <span class="spl-item-right">Use Flow coin</span>
+                            </li>
+                        </ul>
+
+                        <h3>Skins Panel System</h3>
+                        <p class="grey-text">Customize Your Character's Appearance It does not affect the head, only the
+                            body, thus preserving the use of accessories.</p>
+
+
+                        <div class="premium-header"><img src="img/features/skins.webp" alt="Mastery System">
+                        </div>
+
+
+                        <ul class="raidboss-drops">
+                            <li>Skins are for VIP characters; any of them can be used. There is a 10-second cooldown to
+                                switch between them. They cannot be changed or used while in attack mode or flagged</li>
+                        </ul>
+
+
+                        <h3>Special Equipment</h3>
+                        <p class="grey-text">Unique Stat-Boosting Gear</p>
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/FlowArmor(Light).webp" class="feat-icon-image">
+                                    <span>Flow Armors</span>
+                                </div>
+                                <span class="spl-item-right">Custom Armors</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/DuskWeapon.webp" class="feat-icon-image">
+                                    <span>Dual SA Weapons</span>
+                                </div>
+                                <span class="spl-item-right">Custom Dual SA Weapons</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/CloakofFighter.webp" class="feat-icon-image">
+                                    <span>Cloaks</span>
+                                </div>
+                                <span class="spl-item-right">Custom Cloaks/Tatto</span>
+
+                        </ul>
+
+                        <p class="grey-text">Unique Accessories</p>
+
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/accessories.webp" class="feat-icon-image">
+                                    <span>Normal Accessories</span>
+                                </div>
+                                <span class="spl-item-right">No Status</span>
+                            </li>
+                        </ul>
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/flowaccessories.webp" class="feat-icon-image">
+                                    <span>Custom Accessories</span>
+                                </div>
+                                <span class="spl-item-right">No Status</span>
+                            </li>
+                        </ul>
+
+                        <h3>Special Items</h3>
+                        <p class="grey-text">Unique Rewards</p>
+
+                        <ul class="spl-items-list">
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/raidtoken.webp" class="feat-icon-image">
+                                    <span>Raid Token</span>
+                                </div>
+                                <span class="spl-item-right">Event Reward</span>
+                            </li>
+                            <li class="spl-item">
+                                <div class="spl-item-left">
+                                    <img src="img/features/eventtoken.webp" class="feat-icon-image">
+                                    <span>Event Token</span>
+                                </div>
+                                <span class="spl-item-right">Kill Reward</span>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            </section>
+        </div>
+    </div>
+    <div class="logo-container">
+    </div>
+    <!-- downloads-->
+    <div class="page-section" id="download">
+
+        <div class="logo-container">
+        </div>
+        <div class="logo-container">
+        </div>
+
+        <div class="title-container">
+            <p>Download Project Flow and Start Your Adventure!</p>
+        </div>
+
+
+        <!-- feat -->
+        <div class="feat-container">
+
+            <section class="content-area">
+                <div>
+                    <h2>Download Section</h2>
+                    <p>Embark on your adventure in ProjectFlow! Download the game now and prepare for the ultimate
+                        battle!
+                    </p>
+
+                    <div class="download-container">
+
+                        <div class="download-box">
+                            <div class="download-header"><img src="img/download/register.png" alt="Register"></div>
+                            <h4>ACCOUNT REGISTRATION</h4>
+                            <hr>
+                            <p class="download-paragraph">1️⃣The first step for an engaging gameplay experience is
+                                to
+                                create an account and then play!</p>
+
+                            <!-- Download Button -->
+                            <p class="download-title">For enhanced security, always choose a strong, unique password
+                                and
+                                keep it private. Remember, administrators will never request your password.</p>
+                            <a href="https://l2projectflow.com/ucp/?page=register" target="_blank" class="download-btn">
+                                <span class="iconify" data-icon="game-icons:scroll-unfurled" data-width="24"></span>
+                                Register
+                            </a>
+                            <a href="https://l2projectflow.com/ucp/" target="_blank" class="download-btn">
+                                <span class="iconify" data-icon="tdesign:user-setting-filled" data-width="24"></span>
+                                My Account
+                            </a>
+                        </div>
+
+                        <div class="download-box">
+                            <div class="download-header"><img src="img/download/client1.png" alt="Register"></div>
+                            <h4>DOWNLOAD CLIENT</h4>
+                            <hr>
+                            <p class="download-paragraph">2️⃣To connect to the server, download and install our game
+                                client. For optimal performance, we recommend using a fresh installation of the
+                                client
+                                before applying any patches.</p>
+
+                            <!-- Download Button -->
+                            <p class="download-title">Download and install the game client to begin your adventure.
+                            </p>
+                            <a href="https://mega.nz/file/CqYwgbLa#Ymz4mW54rVVOqUyvcPFpGLSAruphTDUILJLc0PxBQdQ"
+                                target="_blank" class="download-btn">
+                                <span class="iconify" data-icon="tdesign:install-filled" data-width="24"></span>
+                                Client (Mega)
+                            </a>
+                            <a href="https://www.mediafire.com/file/gn2yizdfai0miua/L2_CLIENT_INTERLUDE.zip/file"
+                                target="_blank" class="download-btn">
+                                <span class="iconify" data-icon="tdesign:install-filled" data-width="24"></span>
+                                Client (Media)
+                            </a>
+                        </div>
+
+                        <div class="download-box">
+                            <div class="download-header"><img src="img/download/download.png" alt="Register"></div>
+                            <h4>DOWNLOAD PATCH</h4>
+                            <hr>
+                            <p class="download-paragraph">3️⃣To connect to the server, download and install the
+                                provided
+                                patch files to ensure a smooth and uninterrupted gameplay experience.</p>
+                            <p class="download-title">Install the patch files into your game folder, replacing the
+                                existing files for seamless integration.</p>
+                            <!-- Download Button -->
+                            <a href="https://mega.nz/file/jnoFEK4L#re0oLh9de3By19F-05pNsBQ6gv2FJaHQ40tenH_xvfY"
+                                target="_blank" class="download-btn">
+                                <span class="iconify" data-icon="tdesign:folder-zip" data-width="24"></span>
+                                Patch (Mega)
+                            </a>
+                            <a href="https://www.mediafire.com/file/z9s7vmlgpml50fm/Patch_L2ProjectFlow.V_Update08.12.25.rar/file"
+                                target="_blank" class="download-btn">
+                                <span class="iconify" data-icon="tdesign:folder-zip" data-width="24"></span>
+                                Patch (Media)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- footer-->
+    <footer class="footer-flow">
+        <div class="footer-flow-content">
+            <div class="footer-flow-left">
+                <img src="img/logo-icon.png" alt="L2Pflow Logo" class="footer-flow-logo">
+                <span class="footer-flow-brand-name">L2 Project Flow</span>
+            </div>
+            <div class="footer-flow-center">
+                <a href="privacy">Privacy Policy</a>
+                <a href="terms">Terms Of Use</a>
+                <a href="user">User Agreement</a>
+            </div>
+            <div class="footer-flow-right">
+                <a href="https://www.instagram.com/projectflowl2/" target="_blank" class="footer-flow-social-icon"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61561739906962" target="_blank"
+                    class="footer-flow-social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@l2projectflow" target="_blank" class="footer-flow-social-icon"><i
+                        class="fab fa-youtube"></i></a>
+                <a href="https://discord.gg/vQGu9g27yE" target="_blank" class="footer-flow-social-icon"><i
+                        class="fab fa-discord"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-flow-bottom">
+            <p>&copy; 2025 Project Flow. Play on the best Lineage II Interlude Server - All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
